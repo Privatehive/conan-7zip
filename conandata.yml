@@ -1,0 +1,10 @@
+sources:
+  "24.06":
+    "Windows":
+      url: "https://sourceforge.net/projects/sevenzip/files/7-Zip/24.06/7zr.exe/download?use_mirror=autoselect#"
+      sha1: "558279fe10e5dc98419c3d7e138a569e7ca59011"
+      filename: "7z.exe"
+    "Linux":
+      url: "https://sourceforge.net/projects/sevenzip/files/7-Zip/24.06/7z2406-linux-x64.tar.xz/download?use_mirror=autoselect#"
+      sha1: "5c878d80cb4f151f6726fd9cbaf23e4ecb1d8c9f"
+      filename: "7z.tar.xz"

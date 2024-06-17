@@ -1,0 +1,13 @@
+{
+  "version": "24.06",
+  "projectName": "7zip",
+  "projectDescription": "7-Zip is a file archiver with a high compression ratio.",
+  "vendor": "Björn Stresing",
+  "contact": "bjoern.stresing@gmx.de",
+  "domain": "com.github.tereius",
+  "copyrightYear": "2024",
+  "repository": "https://github.com/Tereius/conan-7zip",
+  "topics": ["7zip", "compression"],
+  "homepage": "https://7-zip.org",
+  "license": "LGPL"
+}
