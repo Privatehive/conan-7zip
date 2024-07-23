@@ -16,5 +16,12 @@ jobs:
     with:
       image: "ghcr.io/tereius/conan-wine:latest"
       runs-on: self-hosted
-      conan_host_profile: "windowsMinGW"
       conan_remotes: https://conan.privatehive.de/artifactory/api/conan/public-conan
+
+  upload_recipe:
+    name: "Upload"
+    uses: Privatehive/conan-workflows/.github/workflows/uploadRecipe.yml@master
+    with:
+      conan_upload_remote: https://conan.privatehive.de/artifactory/api/conan/public-conan
+      conan_upload_login: ci
+    secrets: inherit
