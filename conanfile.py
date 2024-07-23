@@ -3,7 +3,7 @@
 
 from conan import ConanFile
 from conan.tools.files import download, copy, unzip, rename, rm
-import json, os
+import json
 
 required_conan_version = ">=2.0"
 
