@@ -23,5 +23,4 @@ jobs:
     uses: Privatehive/conan-workflows/.github/workflows/uploadRecipe.yml@master
     with:
       conan_upload_remote: https://conan.privatehive.de/artifactory/api/conan/public-conan
-      conan_upload_login: ci
     secrets: inherit
