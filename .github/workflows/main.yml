@@ -19,6 +19,22 @@ jobs:
       conan_remotes: https://conan.privatehive.de/artifactory/api/conan/public-conan
 
   upload_recipe:
+    permissions:
+      actions: write
+      attestations: write
+      checks: write
+      contents: write
+      deployments: write
+      id-token: write
+      issues: write
+      discussions: write
+      packages: write
+      pages: write
+      pull-requests: write
+      repository-projects: write
+      security-events: write
+      statuses: write
+
     needs: [build_linux, build_windows]
     uses: Privatehive/conan-workflows/.github/workflows/uploadRecipe.yml@master
     with:
