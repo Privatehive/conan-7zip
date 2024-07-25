@@ -15,4 +15,3 @@ This package contains a single 7zip binary you want to use in your recipe as a b
 
 * The binary for Windows is `7z.exe`
 * The binary for Linux is `7z`
-
