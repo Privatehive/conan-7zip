@@ -2,12 +2,13 @@
 
 ### A conan package that provides the 7-Zip command line tool 
 
-[![Conan Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FTereius%2Fconan-7zip%2Fmaster%2Finfo.json&query=%24.version&prefix=7zip%2F&suffix=%40com.github.tereius%2Fstable&style=flat&logo=conan&label=conan&color=%232980b9)](https://conan.privatehive.de/ui/repos/tree/General/public-conan/com.github.tereius/7zip)
+[![Conan Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Frepos%2FPrivatehive%2Fconan-7zip%2Fproperties%2Fvalues&query=%24%5B%3F(%40.property_name%20%3D%3D%20'conan-package')%5D.value&style=flat&logo=conan&label=conan&color=%232980b9)](https://conan.privatehive.de/ui/repos/tree/General/public-conan/de.privatehive)
 
-| os | arch | Status |
-|---|---|---|
-| Linux | x86_64| [![Build Status](https://dev.azure.com/bjoernstresing/bjoernstresing/_apis/build/status%2FTereius.conan-7zip?repoName=Tereius%2Fconan-7zip&branchName=master&jobName=Linux)](https://dev.azure.com/bjoernstresing/bjoernstresing/_build/latest?definitionId=31&repoName=Tereius%2Fconan-7zip&branchName=master) |
-| Windows | x86_64 | [![Build Status](https://dev.azure.com/bjoernstresing/bjoernstresing/_apis/build/status%2FTereius.conan-7zip?repoName=Tereius%2Fconan-7zip&branchName=master&jobName=Windows)](https://dev.azure.com/bjoernstresing/bjoernstresing/_build/latest?definitionId=31&repoName=Tereius%2Fconan-7zip&branchName=master) |
+
+| os      | arch   | Status                                                                                                                                                                               |
+| ------- | ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Linux   | x86_64 | [![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/Privatehive/conan-7zip/main.yml?branch=master&style=flat&logo=github&label=create%20package)](https://github.com/Privatehive/conan-7zip/actions?query=branch%3Amaster) |
+| Windows | x86_64 | [![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/Privatehive/conan-7zip/main.yml?branch=master&style=flat&logo=github&label=create%20package)](https://github.com/Privatehive/conan-7zip/actions?query=branch%3Amaster) |
 
 ### Usage
 
