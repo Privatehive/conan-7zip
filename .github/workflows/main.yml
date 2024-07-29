@@ -6,7 +6,7 @@ jobs:
     name: "Linux"
     uses: Privatehive/conan-workflows/.github/workflows/createPackage.yml@master
     with:
-      image: "ghcr.io/tereius/conan-ubuntu:latest"
+      image: "ghcr.io/privatehive/conan-ubuntu:latest"
       runs-on: self-hosted
       conan_remotes: https://conan.privatehive.de/artifactory/api/conan/public-conan
 
@@ -14,7 +14,7 @@ jobs:
     name: "Windows"
     uses: Privatehive/conan-workflows/.github/workflows/createPackage.yml@master
     with:
-      image: "ghcr.io/tereius/conan-wine:latest"
+      image: "ghcr.io/privatehive/conan-wine:latest"
       runs-on: self-hosted
       conan_remotes: https://conan.privatehive.de/artifactory/api/conan/public-conan
 
