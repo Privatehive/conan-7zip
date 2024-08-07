@@ -7,8 +7,8 @@
 
 | os      | arch   | Status                                                                                                                                                                               |
 | ------- | ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Linux   | x86_64 | [![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/Privatehive/conan-7zip/main.yml?branch=master&style=flat&logo=github&label=create%20package)](https://github.com/Privatehive/conan-7zip/actions?query=branch%3Amaster) |
-| Windows | x86_64 | [![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/Privatehive/conan-7zip/main.yml?branch=master&style=flat&logo=github&label=create%20package)](https://github.com/Privatehive/conan-7zip/actions?query=branch%3Amaster) |
+| `Linux`   | `x86_64` | [![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/Privatehive/conan-7zip/main.yml?branch=master&style=flat&logo=github&label=create%20package)](https://github.com/Privatehive/conan-7zip/actions?query=branch%3Amaster) |
+| `Windows` | `x86_64` | [![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/Privatehive/conan-7zip/main.yml?branch=master&style=flat&logo=github&label=create%20package)](https://github.com/Privatehive/conan-7zip/actions?query=branch%3Amaster) |
 
 ### Usage
 
