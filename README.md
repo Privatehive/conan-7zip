@@ -6,14 +6,15 @@
 
 ---
 
-| os      | arch   | Status                                                                                                                                                                               |
-| ------- | ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| os        | arch     | Status                                                                                                                                                                                                                                                          |
+| --------- | -------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `Linux`   | `x86_64` | [![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/Privatehive/conan-7zip/main.yml?branch=master&style=flat&logo=github&label=create%20package)](https://github.com/Privatehive/conan-7zip/actions?query=branch%3Amaster) |
 | `Windows` | `x86_64` | [![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/Privatehive/conan-7zip/main.yml?branch=master&style=flat&logo=github&label=create%20package)](https://github.com/Privatehive/conan-7zip/actions?query=branch%3Amaster) |
+| `Macos`   | `armv8`  | [![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/Privatehive/conan-7zip/main.yml?branch=master&style=flat&logo=github&label=create%20package)](https://github.com/Privatehive/conan-7zip/actions?query=branch%3Amaster) |
 
 ### Usage
 
 This package contains a single 7zip binary you want to use in your recipe as a build dependency.
 
 * The binary for Windows is `7z.exe`
-* The binary for Linux is `7z`
+* The binary for Linux and Macos is `7z`
