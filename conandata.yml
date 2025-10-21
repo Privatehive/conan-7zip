@@ -1,14 +1,25 @@
 sources:
   "24.08":
-    "Windows":
-      url: "https://sourceforge.net/projects/sevenzip/files/7-Zip/24.08/7zr.exe/download?use_mirror=autoselect#"
-      sha1: "d99de792fd08db53bb552cd28f0080137274f897"
-      filename: "7z.exe"
-    "Linux":
-      url: "https://sourceforge.net/projects/sevenzip/files/7-Zip/24.08/7z2408-linux-x64.tar.xz/download?use_mirror=autoselect#"
-      sha1: "19db9681e3a9c71b65e4af1637f28c1f25fe5616"
-      filename: "7z.tar.xz"
-    "Macos":
-      url: "https://sourceforge.net/projects/sevenzip/files/7-Zip/24.08/7z2408-mac.tar.xz/download?use_mirror=autoselect#"
-      sha1: "08a0e609e4c28393d0bde90704c2f5c69a005d47"
-      filename: "7z.tar.xz"
+    Windows:
+      x86_64:
+        url: "https://sourceforge.net/projects/sevenzip/files/7-Zip/24.08/7zr.exe/download?use_mirror=autoselect#"
+        sha1: "d99de792fd08db53bb552cd28f0080137274f897"
+        filename: "7z.exe"
+    Linux:
+      x86_64:
+        url: "https://sourceforge.net/projects/sevenzip/files/7-Zip/24.08/7z2408-linux-x64.tar.xz/download?use_mirror=autoselect#"
+        sha1: "19db9681e3a9c71b65e4af1637f28c1f25fe5616"
+        filename: "7z.tar.xz"
+      armv8:
+        url: "https://sourceforge.net/projects/sevenzip/files/7-Zip/24.08/7z2408-linux-arm64.tar.xz/download?use_mirror=autoselect#"
+        sha1: "2d40e5ae50ebf411f41c4e66172c2ceff05e3883"
+        filename: "7z.tar.xz"
+    Macos:
+      x86_64:
+        url: "https://sourceforge.net/projects/sevenzip/files/7-Zip/24.08/7z2408-mac.tar.xz/download?use_mirror=autoselect#"
+        sha1: "08a0e609e4c28393d0bde90704c2f5c69a005d47"
+        filename: "7z.tar.xz"
+      armv8:
+        url: "https://sourceforge.net/projects/sevenzip/files/7-Zip/24.08/7z2408-mac.tar.xz/download?use_mirror=autoselect#"
+        sha1: "08a0e609e4c28393d0bde90704c2f5c69a005d47"
+        filename: "7z.tar.xz"

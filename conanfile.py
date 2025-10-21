@@ -42,14 +42,14 @@ class NsisConan(ConanFile):
         valid_os = ["Windows", "Linux", "Macos"]
         if str(self.settings.os) not in valid_os:
             raise ConanInvalidConfiguration(f"{self.name} {self.version} is only supported for the following operating systems: {valid_os}")
-        valid_arch = ["x86_64"]
-        if self.settings.os == "Macos":
-            valid_arch = ["x86_64", "armv8"]
+        valid_arch = ["x86_64", "armv8"]
+        if self.settings.os == "Windows":
+            valid_arch = ["x86_64"]
         if str(self.settings.arch) not in valid_arch:
             raise ConanInvalidConfiguration(f"{self.name} {self.version} is only supported for the following architectures on {self.settings.os}: {valid_arch}")
 
     def build(self):
-        download(self, **self.conan_data["sources"][self.version][str(self.settings.os)])
+        download(self, **self.conan_data["sources"][self.version][str(self.settings.os)][str(self.settings.arch)])
         if self.settings.os == "Linux":
             unzip(self, "7z.tar.xz", keep_permissions=True, pattern="7zzs")
             rename(self, "7zzs", "7z")
